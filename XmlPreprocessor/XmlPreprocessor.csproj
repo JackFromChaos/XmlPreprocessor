@@ -55,6 +55,34 @@
     <Compile Include="preprocessor\Preprocessor.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="serialization\attributs\AliaseNameAttribute.cs" />
+    <Compile Include="serialization\attributs\ChildAdderAttribute.cs" />
+    <Compile Include="serialization\attributs\CustomSerializerAttribute.cs" />
+    <Compile Include="serialization\attributs\SerializationGroupAttribute.cs" />
+    <Compile Include="serialization\attributs\SerializerCompleteAttribute.cs" />
+    <Compile Include="serialization\attributs\StringTypeConverterAttribute.cs" />
+    <Compile Include="serialization\CollectionFieldMetaData.cs" />
+    <Compile Include="serialization\converters\EnumStringConverter.cs" />
+    <Compile Include="serialization\converters\ListStringCommaSplitterTypeConverter.cs" />
+    <Compile Include="serialization\converters\SimpleConverter.cs" />
+    <Compile Include="serialization\CustomTypeDescriptorContext.cs" />
+    <Compile Include="serialization\FieldMetaData.cs" />
+    <Compile Include="serialization\IChildAdder.cs" />
+    <Compile Include="serialization\ICustomTypeManager.cs" />
+    <Compile Include="serialization\IDeserializer.cs" />
+    <Compile Include="serialization\IFieldMetaData.cs" />
+    <Compile Include="serialization\IMetaData.cs" />
+    <Compile Include="serialization\ISerializer.cs" />
+    <Compile Include="serialization\IStringTypeConverter.cs" />
+    <Compile Include="serialization\ListAdderField.cs" />
+    <Compile Include="serialization\MethodAdderField.cs" />
+    <Compile Include="serialization\ReflectionFacade.cs" />
+    <Compile Include="serialization\ReflectionUtils.cs" />
+    <Compile Include="serialization\SerializationHelper.cs" />
+    <Compile Include="serialization\Serializer.cs" />
+    <Compile Include="serialization\SimpleCustomTypeManager.cs" />
+    <Compile Include="serialization\TypeMetaData.cs" />
+    <Compile Include="utils\DioRandom.cs" />
     <Compile Include="utils\MathParser.cs" />
   </ItemGroup>
   <ItemGroup>
